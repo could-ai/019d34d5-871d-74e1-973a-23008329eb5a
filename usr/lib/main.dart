@@ -245,8 +245,7 @@ class _PromptScreenState extends State<PromptScreen> {
           _isLoading = false;
           _chatHistory.add({
             'role': 'ai',
-            'text':
-                'Here is a summary based on your prompt: "$text". \n\nCurrently, the top news regarding "Kamble" includes updates on Vinod Kambli\\'s health, Sayli Kamble welcoming a baby, and financial advice from Kunal Kamble. Let me know if you need more specific details!',
+            'text': "Here is a summary based on your prompt: '$text'. \n\nCurrently, the top news regarding 'Kamble' includes updates on Vinod Kambli's health, Sayli Kamble welcoming a baby, and financial advice from Kunal Kamble. Let me know if you need more specific details!",
           });
         });
       }
